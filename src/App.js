@@ -5,7 +5,12 @@ import TextInput from './TextInput/TextInput'
 class App extends Component {
   render() {
     return (
-      <TextInput />
+      <div>
+        <svg ref='svg'>
+          <TextInput value='test' />
+        </svg>
+        <input type='text' />
+      </div>
     )
   }
 
@@ -13,7 +18,6 @@ class App extends Component {
   //   return (
   //     <div className="App">
   //       <div className="App-header">
-  //         <img src={logo} className="App-logo" alt="logo" />
   //         <h2>Welcome to React</h2>
   //       </div>
   //       <p className="App-intro">
