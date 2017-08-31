@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div>
         <svg ref='svg'>
-          <TextInput value='test' />
+          <TextInput value='test' x='10' y='30' />
         </svg>
         <input type='text' />
       </div>
